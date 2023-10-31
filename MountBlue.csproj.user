@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="HYL.MountBlue.Controls\AvatarComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\ColorComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Klasifikace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\KlavesaInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Klavesnice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\MinMaxZavrit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\MsgBoxTlacitka.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\ObrazkoveTlacitko.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Posuvnik.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Sezeni.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Slapoty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Student.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\TextBoxMB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Trida.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\Vysledky.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\ZalozkyHistorie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\ZalozkyTrida.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Controls\_Bublina.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\ChybaAplikace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Heslo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Lavina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\MojeZnamky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\MsgBoxBublina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\MsgBoxMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Oaplikaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Odmena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\OpakovatKlasifikaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\PostupovyKlic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\PresunNaTabor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\TextyCviceni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Trida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Tridy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Ukazka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Uzivatel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\VarovaniStisky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\ZmenaHesla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\Znamka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\ZnamkyKlas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\_Bublina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Dialogs\_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Forms\HlavniOkno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYL.MountBlue.Forms\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

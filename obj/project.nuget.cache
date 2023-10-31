@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GiVhOT8FQnWrlW9/cZ3+uex2QXGt8vT5AaC9NTP0LH3U2qfmlHTifNTka+pn8qDm+Su3MzojE78C6nrtQEh1pQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kuba\\Desktop\\mtb klient\\MountBlue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kuba\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\kuba\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net40\\1.0.3\\microsoft.netframework.referenceassemblies.net40.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

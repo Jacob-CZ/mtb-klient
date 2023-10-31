@@ -1,0 +1,42 @@
+C:\Users\Hladík Jakub\Desktop\mtb klient\bin\Debug\net40\MountBlue.exe.config
+C:\Users\Hladík Jakub\Desktop\mtb klient\bin\Debug\net40\MountBlue.exe
+C:\Users\Hladík Jakub\Desktop\mtb klient\bin\Debug\net40\MountBlue.pdb
+C:\Users\Hladík Jakub\Desktop\mtb klient\bin\Debug\net40\MountBlueU.dll
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.AssemblyReference.cache
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Controls.Slapoty.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Dialogs.ChybaAplikace.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Forms.HlavniOkno.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Aktivace.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Avatary.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Grafika.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.GrafikaSkolni.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Lekce.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Texty.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.XSD.resources
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.GenerateResource.cache
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\MountBlue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.CoreCompileInputs.cache
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.CopyComplete
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\MountBlue.exe
+C:\Users\Hladík Jakub\Desktop\mtb klient\obj\Debug\net40\MountBlue.pdb
+C:\Users\kuba\Desktop\mtb klient\bin\Debug\net40\MountBlue.exe.config
+C:\Users\kuba\Desktop\mtb klient\bin\Debug\net40\MountBlue.exe
+C:\Users\kuba\Desktop\mtb klient\bin\Debug\net40\MountBlue.pdb
+C:\Users\kuba\Desktop\mtb klient\bin\Debug\net40\MountBlueU.dll
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.AssemblyReference.cache
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Controls.Slapoty.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Dialogs.ChybaAplikace.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Forms.HlavniOkno.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Aktivace.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Avatary.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Grafika.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.GrafikaSkolni.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Lekce.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.Texty.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\HYL.MountBlue.Resources.XSD.resources
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.GenerateResource.cache
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\MountBlue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.CoreCompileInputs.cache
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\MountBlue.csproj.CopyComplete
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\MountBlue.exe
+C:\Users\kuba\Desktop\mtb klient\obj\Debug\net40\MountBlue.pdb

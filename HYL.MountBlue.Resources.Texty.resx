@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="OpakovatKlasifikaci_lblInfo" xml:space="preserve"><value>Ze seznamu vyberte tu klasifikaci, kterou chcete nechat žákovi napsat ještě jednou.</value></data>
+  <data name="Licence_msgChybaVytvareni" xml:space="preserve"><value>Při vytváření licenčního souboru došlo k chybě. {0}</value></data>
+  <data name="Uzivatel_lblUID" xml:space="preserve"><value>UID pro přenos:</value></data>
+  <data name="Student_klasifikaceOpakovani" xml:space="preserve"><value>Klasifikace je splněna, ale žák má nastaveno opakování této klasifikace.</value></data>
+  <data name="Uzivatel_optMuz" xml:space="preserve"><value>muž</value></data>
+  <data name="Sprava_cmdTridy_TTT" xml:space="preserve"><value>Zobrazí okno přidávání a editace tříd v systému
+(Ctrl+T)</value></data>
+  <data name="Trida_lblRocnik" xml:space="preserve"><value>Ročník:</value></data>
+  <data name="Sprava_groupTrida" xml:space="preserve"><value>Třída {0} – {1}</value></data>
+  <data name="Sprava_clhUzivJmeno" xml:space="preserve"><value>Uživatelské jméno</value></data>
+  <data name="Sprava_lnkObnovit_TTT" xml:space="preserve"><value>Načte aktuální data uživatelů ze serveru (F5)</value></data>
+  <data name="ZmenaHesla_msgboxStejne" xml:space="preserve"><value>Zadali jste stejné heslo, jako je vaše heslo původní.
+
+Zadejte prosím jiné heslo.</value></data>
+  <data name="MojeZnamky_grpTrenink" xml:space="preserve"><value>Trénink</value></data>
+  <data name="MojeZnamky_msgUcitelMusiPovolit" xml:space="preserve"><value>Než budete moci začít psát klasifikaci, musí Vám ji Váš učitel povolit.
+
+Domluvte se s~ním, kdy Vám psaní klasifikace povolí.</value></data>
+  <data name="Uzivatel_lnkAvatarVlastniVlozit" xml:space="preserve"><value>Vložit
+vlastní
+obrázek</value></data>
+  <data name="Psani_ZpravaDoleva_Info" xml:space="preserve"><value>Opisujte text od posledního písmene k~prvnímu. Je to těžké, ale zvládnutelné.</value></data>
+  <data name="Trida_ucitelNespecifikovany" xml:space="preserve"><value>&lt;učitel není vybraný&gt;</value></data>
+  <data name="Uzivatel_lblObrazek" xml:space="preserve"><value>Váš obrázek:</value></data>
+  <data name="Uzivatel_lblBarvaPozadi" xml:space="preserve"><value>Barva pozadí:</value></data>
+  <data name="Barvy_bila" xml:space="preserve"><value>bílá</value></data>
+  <data name="Barvy_seda" xml:space="preserve"><value>šedá</value></data>
+  <data name="ZnamkyKlas_lblZnamka" xml:space="preserve"><value>Známka</value></data>
+  <data name="Sprava_msgOpravduOdebrat" xml:space="preserve"><value>Opravdu chcete odebrat uživatele {0}?</value></data>
+  <data name="KlavesniceInfo_1" xml:space="preserve"><value>Už znáte jednu klávesu.
+
+Skvělé! Jen tak dále!</value></data>
+  <data name="KlavesniceInfo_5" xml:space="preserve"><value>Už znáte {0} kláves.
+
+Skvělé! Jen tak dále!</value></data>
+  <data name="Lekce_msgboxChybaKlasifikace_Title" xml:space="preserve"><value>Chyba klasifikace</value></data>
+  <data name="Klavesy_coUzUmim" xml:space="preserve"><value>Co už umím?</value></data>
+  <data name="Sprava_msgNelzeOdebrat" xml:space="preserve"><value>Uživatele nelze odebrat, protože je právě přihlášený v Mount Blue.</value></data>
+  <data name="Uzivatel_lstTrida_neuvedna" xml:space="preserve"><value>&lt;třída neuvedena&gt;</value></data>
+  <data name="ChybaAplikace_msgRestartovat_Title" xml:space="preserve"><value>Restartovat?</value></data>
+  <data name="Aktivace_lblVolbaRucneInfo" xml:space="preserve"><value>Ruční aktivaci použijte v~případě, že Váš počítač není připojený k~Internetu nebo automatickou aktivaci nelze použít.</value></data>
+  <data name="Tridy_lnkPridatTridu_TTT" xml:space="preserve"><value>Klávesová zkratka: Ctrl+Insert</value></data>
+  <data name="Sprava_clhPoznamka" xml:space="preserve"><value>Poznámka</value></data>
+  <data name="UzivateleDomaci_msgboxChybaSlozka2" xml:space="preserve"><value>Při vytváření složky pro data smazaných uživatelů došlo k chybě.
+
+{0}</value></data>
+  <data name="UzivateleDomaci_msgboxChybaSlozka1" xml:space="preserve"><value>Při vytváření složky pro data uživatelů došlo k chybě.
+
+{0}</value></data>
+  <data name="Historie_lblCisteUhozy" xml:space="preserve"><value>Čisté úhozy/min.:</value></data>
+  <data name="KlavesniceInfo_Title" xml:space="preserve"><value>Co už umím?</value></data>
+  <data name="PrihlasitDomaci_lnkUpravitUziv" xml:space="preserve"><value>Upravit uživatele</value></data>
+  <data name="PrihlasitDomaci_lnkPridatSkolUziv_TTT" xml:space="preserve"><value>Založí nového uživatele přenosem klíče ze školy</value></data>
+  <data name="ZmenaHesla_msgboxKratke" xml:space="preserve"><value>Zadali jste příliš krátké heslo. Heslo musí mít alespoň 4 znaky.</value></data>
+  <data name="MsgBoxObsah_cmdNe_ttt" xml:space="preserve"><value>Klávesa 'N' nebo Escape</value></data>
+  <data name="TextyCviceni_lnkZkopirovat" xml:space="preserve"><value>Zkopírovat vybraný text do schránky</value></data>
+  <data name="Uzivatel_msgboxStejnaBarva_Title" xml:space="preserve"><value>Zvolené stejné barvy</value></data>
+  <data name="Trida_lblUcitel" xml:space="preserve"><value>Učitel:</value></data>
+  <data name="KlavesniceInfo_final" xml:space="preserve"><value>Už znáte všech {0} kláves.
+
+Gratulujeme, umíte ovládat svou klávesnici hmatově!</value></data>
+  <data name="PStudent_msgboxNesplnenaKlasifikace_Title" xml:space="preserve"><value>Nesplněná klasifikace</value></data>
+  <data name="MojeZnamky_clhKlasifikace" xml:space="preserve"><value>Klasifikace</value></data>
+  <data name="ChybaAplikace_msgRestartovat" xml:space="preserve"><value>Chcete aplikaci restartovat?</value></data>
+  <data name="PrihlasitSkolni_msgboxUzivUzPrihlaseny" xml:space="preserve"><value>Zadaný uživatel již je v systému přihlášený. Každý uživatel se smí přihlásit pouze jednou.</value></data>
+  <data name="Znamka_Title" xml:space="preserve"><value>Známka</value></data>
+  <data name="Student_lblVyprsi" xml:space="preserve"><value>vyprší {0}</value></data>
+  <data name="DemoInfo_lblPodpis" xml:space="preserve"><value>Váš horský vůdce</value></data>
+  <data name="Cviceni_cmdNavratDomu_TTT" xml:space="preserve"><value>Návrat domů
+(Escape)</value></data>
+  <data name="MojeZnamky_grpNeaktivni" xml:space="preserve"><value>Neaktivní klasifikace</value></data>
+  <data name="MsgBoxObsah_cmdOK_ttt" xml:space="preserve"><value>Klávesa 'O', Enter nebo Escape</value></data>
+  <data name="Uzivatel_lblPrijmeni" xml:space="preserve"><value>Příjmení:</value></data>
+  <data name="PostupovyKlic_msgMensiNez" xml:space="preserve"><value>Zadaný klíč je sice v~pořádku, ale posunul by Vás do nižšího tábora. Nechám Vás tedy na stávajícím cvičení.</value></data>
+  <data name="Sprava_lnkUpravitUziv_TTT" xml:space="preserve"><value>Upraví nastavení vybraného uživatele (F2)</value></data>
+  <data name="Aktivace_msgAktualniSouborNeniPlatny" xml:space="preserve"><value>Omlouváme se, ale aktuální licenční soubor aplikace není platný.</value></data>
+  <data name="Oaplikaci_lblLicence" xml:space="preserve"><value>{0}: {1} (aktivace {2:MMMM yyyy})</value></data>
+  <data name="PresunNaTabor_lstLekce_pol" xml:space="preserve"><value>{0}. tábor – {1}</value></data>
+  <data name="Klavesnice_popis_znama_klavesa_s_modifikatorem" xml:space="preserve"><value>{0} je kombinací znaku {1}, který se píše {2}, a~znaku {3}, který se píše {4}. {5}</value></data>
+  <data name="Uzivatel_lblTrida" xml:space="preserve"><value>Třída</value></data>
+  <data name="KlavesniceInfo_clhKlavesy" xml:space="preserve"><value>Klávesy</value></data>
+  <data name="Uzivatel_lblEmail" xml:space="preserve"><value>E-mailová adresa:</value></data>
+  <data name="Uzivatel_lblHeslo" xml:space="preserve"><value>Změna hesla:</value></data>
+  <data name="Uzivatel_lblJmeno" xml:space="preserve"><value>Jméno:</value></data>
+  <data name="TextyCviceni_lnkZkopirovatVse" xml:space="preserve"><value>Zkopírovat všechny základní texty {0}. tábora do schránky</value></data>
+  <data name="Uzivatel_lblVelikostPisma" xml:space="preserve"><value>Velikost písma:</value></data>
+  <data name="Avatary_msgChyba" xml:space="preserve"><value>Při načítání a převodu obrázku do avataru došlo k chybě.
+
+{0}</value></data>
+  <data name="Historie_lblDobaPsani" xml:space="preserve"><value>Doba psaní cvičení:</value></data>
+  <data name="Student_klasifikaceMoznostOdmeny" xml:space="preserve"><value>Klasifikace je splněna, ale žák může využít malé jedničky k opakování klasifikace.</value></data>
+  <data name="Uzivatel_tridaPolozka" xml:space="preserve"><value>{0} – {1}</value></data>
+  <data name="Slapoty_lblPopisek" xml:space="preserve"><value>Zbývající čas:</value></data>
+  <data name="Student_vystupDokoncen" xml:space="preserve"><value>výstup dokončen {0:d}</value></data>
+  <data name="PStudent_msgboxKlasifikace_Title" xml:space="preserve"><value>Klasifikace</value></data>
+  <data name="Klavesnice_popis_neznama_klavesa" xml:space="preserve"><value>{0} se píše {1}.{2}{3}</value></data>
+  <data name="UzivateleDomaci_msgboxChybaSlozka_Title" xml:space="preserve"><value>Chyba</value></data>
+  <data name="MojeZnamky_info_muzePsat" xml:space="preserve"><value>Klasifikaci můžete napsat kliknutím na tlačítko 'Začít psát klasifikaci'.</value></data>
+  <data name="PrihlasitSkolni_Info1" xml:space="preserve"><value>Pro přihlášení do~aplikace musíte zadat své uživatelské jméno a~heslo.</value></data>
+  <data name="PrihlasitSkolni_Info2" xml:space="preserve"><value>Pokud se přihlašujete poprvé nebo Vám učitel či správce vynuloval Vaše heslo, stačí zadat pouze uživatelské jméno.</value></data>
+  <data name="Avatary_msgChyba_Title" xml:space="preserve"><value>Chyba při převodu</value></data>
+  <data name="PrihlasitSkolni_Heslo" xml:space="preserve"><value>Přihlašovací heslo:</value></data>
+  <data name="ZmenaHesla_msgbox2xStejne" xml:space="preserve"><value>Musíte zadat 2x stejné heslo.</value></data>
+  <data name="Psani_MuzeZiskatOdmenu" xml:space="preserve"><value>Na konci tohoto úseku Vás čeká za odměnu hvězdička. 
+
+Musíte ale postupovat opatrně a~přesně. Až budete mít hvězdiček pět, získáte malou jedničku.</value></data>
+  <data name="Uzivatel_lblUIDzeSkolyInfo" xml:space="preserve"><value>Zadejte Vaše osmimístné uživatelské identifikační číslo (tzv. UID), které jste si přinesli ze školy.</value></data>
+  <data name="MojeZnamky_clhChybovost" xml:space="preserve"><value>Chybovost</value></data>
+  <data name="Tridy_msgNelzeOdebrat" xml:space="preserve"><value>Třídu nelze odebrat, protože jsou v ní zařazeni žáci. Pokud chcete třídu skutečně odebrat, přesuňte všechny žáky do jiné třídy.</value></data>
+  <data name="Plocha_cmdZavritTridu_TTT" xml:space="preserve"><value>Zavře otevřenou třídu
+(Escape)</value></data>
+  <data name="PresunNaTabor_optVpred" xml:space="preserve"><value>Přesunout žáka opět na poslední tábor</value></data>
+  <data name="PrihlasitSkolni_msgboxUzivSpatneHeslo" xml:space="preserve"><value>Zadali jste špatné heslo. Zkuste jej prosím zadat znovu.</value></data>
+  <data name="ZmenaHesla_lblNove1" xml:space="preserve"><value>Nové heslo:</value></data>
+  <data name="ZmenaHesla_lblNove2" xml:space="preserve"><value>Ověření nového hesla:</value></data>
+  <data name="Tridy_msgOpravduOdebrat_Title" xml:space="preserve"><value>Odebrat?</value></data>
+  <data name="_JenJednaInstanceMB" xml:space="preserve"><value>Aplikace Mount Blue je již spuštěna.
+
+Nelze spustit novou instanci Mount Blue.</value></data>
+  <data name="Psani_SlepaObrazovka_Title" xml:space="preserve"><value>Pozor! Setmělo se!</value></data>
+  <data name="Historie_lblZnamka" xml:space="preserve"><value>Známka:</value></data>
+  <data name="Uzivatel_msgUzivJmenoSpatne" xml:space="preserve"><value>Zadané uživatelské jméno není korektní.
+
+Uživatelské jméno smí obsahovat pouze písmena a–z, číslice 0–9 a znaky . (tečka), _ (podtržítko) a - (pomlčka).</value></data>
+  <data name="Uzivatel_lstPocatecniLekce_pol" xml:space="preserve"><value>{0}. tábor – {1}</value></data>
+  <data name="Licence_msgChybaOverovani" xml:space="preserve"><value>Při ověřování licence produktu došlo k chybě. {0}</value></data>
+  <data name="Aktivace_lblSNpriklad" xml:space="preserve"><value>např.: MBDO-QSEW-XZAI-FJKA</value></data>
+  <data name="Aktivace_lblRucneInfo3" xml:space="preserve"><value>Po odeslání registračního čísla se Vám nabídne stažení licenčního souboru. Soubor si uložte do svého počítače a~klikněte na odkaz 'Najít licenční soubor'. Ruční aktivace se tím dokončí.</value></data>
+  <data name="Aktivace_lblRucneInfo2" xml:space="preserve"><value>Následující registrační číslo bylo zkopírováno do schránky. Vložte jej prosím (nebo opište) do formuláře na uvedené webové stránce.</value></data>
+  <data name="Aktivace_lblRucneInfo1" xml:space="preserve"><value>Ruční aktivace</value></data>
+  <data name="Klavesy_spojkaA" xml:space="preserve"><value> a </value></data>
+  <data name="Tridy_clhUcitel" xml:space="preserve"><value>Učitel</value></data>
+  <data name="Psani_OpisteText" xml:space="preserve"><value>Opište následující text:</value></data>
+  <data name="Plocha_cmdLavina_TTT" xml:space="preserve"><value>Zobrazí okno pro spuštění laviny
+(Ctrl+L)</value></data>
+  <data name="Vysledky_lblChybovost" xml:space="preserve"><value>Procento chyb:</value></data>
+  <data name="Historie_carka" xml:space="preserve"><value>, </value></data>
+  <data name="Aktivace_lblVolbaAutoInfo" xml:space="preserve"><value>Vyžaduje připojení k~Internetu a~příslušná povolení na Vašem firewallu. Aplikace se automaticky spojí se serverem a~provede celou aktivaci.</value></data>
+  <data name="Barvy_tmaveModra" xml:space="preserve"><value>tmavě modrá</value></data>
+  <data name="ZmenaHesla_lblInfo_Vynucena" xml:space="preserve"><value>Správce nebo učitel Vám zrušil heslo, proto si musíte heslo nyní nastavit.</value></data>
+  <data name="PostupovyKlic_msgZeSkoly" xml:space="preserve"><value>Zadaný postupový klíč není z~domu, ale ze školy. Zkuste klíč zadat ještě jednou.</value></data>
+  <data name="MojeZnamky_klasifikaceVTreninku" xml:space="preserve"><value>Klasifikace v tréninku</value></data>
+  <data name="Znamka_lblInfo" xml:space="preserve"><value>Navrhuji Vám známku:</value></data>
+  <data name="MojeZnamky_grpSplnene" xml:space="preserve"><value>Splněné klasifikace</value></data>
+  <data name="PStudent_msgboxKlasifOpakovani" xml:space="preserve"><value>Váš učitel Vám právě nastavil opakování klasifikačního cvičení. Chcete zobrazit okno Moje známky a začít psát klasifikaci?</value></data>
+  <data name="Uzivatel_msgChybnyEmail" xml:space="preserve"><value>Zadaná e-mailová adresa není korektní. Opravte ji prosím.</value></data>
+  <data name="Klavesa_znak" xml:space="preserve"><value>Znak {0}</value></data>
+  <data name="Lekce_msgboxChybaValidaceXML" xml:space="preserve"><value>Při validaci XML souboru došlo k chybě.
+
+{0}</value></data>
+  <data name="Psani_BezMezer" xml:space="preserve"><value>bez mezer</value></data>
+  <data name="Avatary_dlg_Title" xml:space="preserve"><value>Najít soubor s obrázkem...</value></data>
+  <data name="Plocha_cmdTextyCviceni_TTT" xml:space="preserve"><value>Zobrazí okno s texty cvičení v Mount Blue
+(Ctrl+T)</value></data>
+  <data name="Klavesy_Xtabor" xml:space="preserve"><value>{0}. tábor</value></data>
+  <data name="Uzivatel_lstPocatecniLekce_treninkMinutovky" xml:space="preserve"><value>Trénink - minutovky</value></data>
+  <data name="Psani_Odmena_4" xml:space="preserve"><value>Povedlo se!</value></data>
+  <data name="Psani_Odmena_5" xml:space="preserve"><value>Ano, hvězdička pro Vás!</value></data>
+  <data name="Psani_Odmena_6" xml:space="preserve"><value>Jo!</value></data>
+  <data name="Psani_Odmena_1" xml:space="preserve"><value>Výborně!</value></data>
+  <data name="Psani_Odmena_2" xml:space="preserve"><value>Hvězdička je Vaše :)</value></data>
+  <data name="Psani_Odmena_3" xml:space="preserve"><value>Skvěle!</value></data>
+  <data name="AktivaceAuto_msgChybaObecna" xml:space="preserve"><value>Při aktivaci aplikace došlo k chybě. {0}</value></data>
+  <data name="Trida_Title" xml:space="preserve"><value>Třída</value></data>
+  <data name="Sprava_cmdPridatUcitele_TTT" xml:space="preserve"><value>Zobrazí okno pro vložení nového učitele do systému
+(Ctrl+U)</value></data>
+  <data name="Hora_cmdZacitPsat_TTT" xml:space="preserve"><value>Začít psát
+(Ctrl+Enter)</value></data>
+  <data name="PsaniVysl_msgboxKlasifMuzeOpakovat_Title" xml:space="preserve"><value>Využijte malou jedničku!</value></data>
+  <data name="AktivaceRucni_dlg_Title" xml:space="preserve"><value>Najít licenční soubor Mount Blue...</value></data>
+  <data name="DemoInfo_Title" xml:space="preserve"><value>Informace k demoverzi</value></data>
+  <data name="Lekce_msgboxChyba" xml:space="preserve"><value>Při načítání XML souboru došlo k chybě.
+
+{0}</value></data>
+  <data name="Heslo_msgboxSpatneHeslo" xml:space="preserve"><value>Zadané heslo není správné.
+
+Zadejte prosím heslo znovu.</value></data>
+  <data name="Hora_cmdMojeZnamky_TTT" xml:space="preserve"><value>Moje známky
+(F11)</value></data>
+  <data name="Uzivatel_lnkAktivovatDeakt" xml:space="preserve"><value>Deaktivovat uživatele</value></data>
+  <data name="PrihlasitDomaci_lnkOdebratUziv_TTT" xml:space="preserve"><value>Odebere vybraného uživatele z Mount Blue</value></data>
+  <data name="Klavesy_carka" xml:space="preserve"><value>, </value></data>
+  <data name="Uzivatel_msgUzivJmenoExistuje" xml:space="preserve"><value>Zadané uživatelské jméno už v Mount Blue existuje. Každé uživatelské jméno musí být jedinečné.
+
+Zadejte prosím jiné uživatelské jméno.</value></data>
+  <data name="Uzivatele_msgMaxPocet_Title" xml:space="preserve"><value>Upozornění</value></data>
+  <data name="Sezeni_BublinaNadpis" xml:space="preserve"><value>Sedíte správně?</value></data>
+  <data name="MojeZnamky_lblInfoObecne" xml:space="preserve"><value>Za dobrý výkon dostáváte u~cvičení označených hvězdičkou odměnu. Za pět odměn dostanete malou jedničku.
+
+Malou jedničku můžete směnit za záchranné lano, které vám umožní napsat neúspěšnou klasifikaci podruhé.</value></data>
+  <data name="Trida_lblKlasifikace" xml:space="preserve"><value>Klasifikace</value></data>
+  <data name="Uzivatel_lblAkce" xml:space="preserve"><value>Další možnosti:</value></data>
+  <data name="Uzivatel_lnkHesloZmenit_nast" xml:space="preserve"><value>Nastavit nové heslo</value></data>
+  <data name="_wwwMB" xml:space="preserve"><value>http://www.mountblue.cz</value></data>
+  <data name="ZnamkyKlas_lblHodnotaJinak" xml:space="preserve"><value>horší výsledek</value></data>
+  <data name="Psani_ZpravaDoleva_Title" xml:space="preserve"><value>Pozor! Opis zprava doleva!</value></data>
+  <data name="Uzivatel_msgUzivDeaktivovat" xml:space="preserve"><value>Opravdu chcete uživatele deaktivovat?
+
+Pokud bude uživatel deaktivovaný, nebude se moci přihlásit do Mount Blue.</value></data>
+  <data name="Klavesa_pismeno" xml:space="preserve"><value>Písmeno {0}</value></data>
+  <data name="MojeZnamky_klasifikacePoXtabore" xml:space="preserve"><value>Klasifikace po {0}. táboře</value></data>
+  <data name="Tridy_lnkUpravitTridu" xml:space="preserve"><value>Upravit třídu</value></data>
+  <data name="Psani_SlovaObsahujici_Title" xml:space="preserve"><value>Pozor! Opis jen některých slov!</value></data>
+  <data name="MojeZnamky_info_pozor" xml:space="preserve"><value>Pozor! Pokračovat ve výstupu můžete až po splnění této klasifikace.</value></data>
+  <data name="Tridy_lnkUpravitTridu_TTT" xml:space="preserve"><value>Klávesová zkratka: F2</value></data>
+  <data name="Uzivatel_lblTitulyZa" xml:space="preserve"><value>Tituly za jménem:</value></data>
+  <data name="Historie_postupVlekci" xml:space="preserve"><value>Přenesen postup z domu v rámci tábora.</value></data>
+  <data name="ZnamkyKlas_lblHodnota" xml:space="preserve"><value>Hodnota</value></data>
+  <data name="Trida_msgTridaExistuje" xml:space="preserve"><value>Třída {0} {1} už v systému existuje. Zadejte jiný ročník nebo jiné označení třídy.</value></data>
+  <data name="Psani_BezMezer_Title" xml:space="preserve"><value>Pozor! Opis bez mezer!</value></data>
+  <data name="Psani_opisNkrat_Title" xml:space="preserve"><value>Pozor na počet!</value></data>
+  <data name="Zahlavi_tridaUcitel" xml:space="preserve"><value>{0} ({1})</value></data>
+  <data name="ChybaAplikace_lnkZkopirovat" xml:space="preserve"><value>Zkopírovat detaily do schránky</value></data>
+  <data name="PsaniVysl_msgboxSpatneNapsane_Title" xml:space="preserve"><value>Pozor!</value></data>
+  <data name="MojeZnamky_msgUcitelMusiPovolit_Title" xml:space="preserve"><value>Povolení klasifikace</value></data>
+  <data name="Student_klasifikaceSplneno" xml:space="preserve"><value>Klasifikace je splněna.</value></data>
+  <data name="Klient_msgChybaFLE" xml:space="preserve"><value>Při připojování k serveru došlo k chybě. Pravděpodobně je na serveru nainstalována jiná verze služby MountBlueServer, než je verze této klientské aplikace.
+
+Podrobnosti: {0}</value></data>
+  <data name="PrihlasitDomaci_lnkPridatUziv" xml:space="preserve"><value>Přidat uživatele</value></data>
+  <data name="Uzivatel_lnkHesloVynulovat" xml:space="preserve"><value>Vynulovat uživateli přihlašovací heslo</value></data>
+  <data name="PsaniVysl_msgboxKlasifMuzeOpakovat" xml:space="preserve"><value>Máte malou jedničku, kterou můžete směnit za~záchranné lano. Chcete-li, můžete tuto klasifikaci napsat ještě jednou.
+
+V~okně 'Moje známky' vyberte klasifikační cvičení, které chcete opakovat, a~zvolte 'Začít psát klasifikaci'.</value></data>
+  <data name="Psani_BezMezer_Info" xml:space="preserve"><value>Nyní vyzkouším Vaši přesnost. Opište text bez mezer. Pusťte se do toho, když budete dost pozorní, zvládnete to.</value></data>
+  <data name="Uzivatel_Title_novy" xml:space="preserve"><value>Nový uživatel</value></data>
+  <data name="Zahlavi_Odmeny" xml:space="preserve"><value>Odměny:</value></data>
+  <data name="Student_msgKlasifikaciNelzeZrusit" xml:space="preserve"><value>Klasifikaci nelze zakázat, protože žák ji už začal psát.</value></data>
+  <data name="Plocha_cmdSezeni_TTT" xml:space="preserve"><value>Jak správně sedět?
+(F12)</value></data>
+  <data name="_JmenoMBdemo" xml:space="preserve"><value>Mount Blue Demo</value></data>
+  <data name="TextyCviceni_lnkZkopirovatVse_trenink5Minutovky" xml:space="preserve"><value>Zkopírovat všechny základní texty tréninku - pětiminutovky</value></data>
+  <data name="DemoInfo_lnkWeb" xml:space="preserve"><value>Plnou verzi Mount Blue si můžete objednat na www.mountblue.cz</value></data>
+  <data name="Plocha_picWebHYL_TTT" xml:space="preserve"><value>Webové stránky vzdělávací společnosti Mount Blue s.r.o.</value></data>
+  <data name="Tridy_lnkOdebratTridu_TTT" xml:space="preserve"><value>Klávesová zkratka: Ctrl+Delete</value></data>
+  <data name="Uzivatel_lblBarvaPisma" xml:space="preserve"><value>Barva písma:</value></data>
+  <data name="Uzivatel_lstPocatecniLekce_trenink10Minutovky" xml:space="preserve"><value>Trénink - desetiminutovky</value></data>
+  <data name="Hora_VystupDokoncenTitle" xml:space="preserve"><value>Jste v cíli!</value></data>
+  <data name="ZmenaHesla_Title" xml:space="preserve"><value>Nastavení hesla</value></data>
+  <data name="Lekce_msgboxChyba_Title" xml:space="preserve"><value>Chyba XML</value></data>
+  <data name="Lavina_lblInfoStudent" xml:space="preserve"><value>STOP! NEPIŠTE! BLÍŽÍ SE LAVINA!
+
+Až nebezpečí pomine, můžete se vydat dál.</value></data>
+  <data name="Aktivace_lblAutoProbiha" xml:space="preserve"><value>Probíhá automatická aktivace. Čekejte prosím...</value></data>
+  <data name="Hora_VyukaDokoncenaTitle" xml:space="preserve"><value>Jste téměř v~cíli!</value></data>
+  <data name="Sprava_cmdOtevritTridu_TTT" xml:space="preserve"><value>Otevře vybranou třídu
+(Ctrl+O)</value></data>
+  <data name="Uzivatel_lblUkazka" xml:space="preserve"><value>Ukázka</value></data>
+  <data name="Sezeni_BublinaInfo" xml:space="preserve"><value>Podívejte se na~obrázek a zkontrolujte, zda opravdu sedíte správně.</value></data>
+  <data name="PStudent_msgboxNezapomente" xml:space="preserve"><value>Nezapomeňte, že nemáte splněnou klasifikaci.
+
+Více se dozvíte po kliknutí na tlačítko 'Moje známky'.</value></data>
+  <data name="Uzivatel_optPismoMale" xml:space="preserve"><value>malá</value></data>
+  <data name="PStudent_msgboxKlasifPovolena" xml:space="preserve"><value>Váš učitel Vám právě povolil psaní klasifikačního cvičení. Chcete zobrazit okno Moje známky a začít psát klasifikaci?</value></data>
+  <data name="TextyCviceni_lstTexty_triTecky" xml:space="preserve"><value>...</value></data>
+  <data name="Psani_opisNkrat" xml:space="preserve"><value>Nezapomeňte, že text musíte opsat {0}x.</value></data>
+  <data name="Vysledky_lblChyby" xml:space="preserve"><value>Počet chyb:</value></data>
+  <data name="Psani_ZpravaDoleva" xml:space="preserve"><value>zprava doleva</value></data>
+  <data name="Historie_postupNalekci" xml:space="preserve"><value>Přenesen postup z tábora {0} do tábora {1}.</value></data>
+  <data name="TextyCviceni_lnkZkopirovatVse_treninkMinutovky" xml:space="preserve"><value>Zkopírovat všechny základní texty tréninku - minutovky</value></data>
+  <data name="Barvy_cerna" xml:space="preserve"><value>černá</value></data>
+  <data name="Psani_MuzeZiskatOdmenu_Title" xml:space="preserve"><value>Odměna za dobrý výsledek</value></data>
+  <data name="Barvy_modra" xml:space="preserve"><value>modrá</value></data>
+  <data name="Barvy_hneda" xml:space="preserve"><value>hnědá</value></data>
+  <data name="Student_lnkUpravit" xml:space="preserve"><value>Nastavení</value></data>
+  <data name="_Copyright" xml:space="preserve"><value>Copyright © 2008 Mount Blue s.r.o.</value></data>
+  <data name="MojeZnamky_info_nezapomenout_1" xml:space="preserve"><value>Nezapomeňte ale, že ji musíte splnit, než dojdete do {0}. tábora.</value></data>
+  <data name="MojeZnamky_info_nezapomenout_2" xml:space="preserve"><value>Nezapomeňte ale, že ji musíte splnit, než dokončíte výstup na Mount Blue.</value></data>
+  <data name="Aktivace_msgNepodariloSeOverit" xml:space="preserve"><value>Omlouváme se, ale nepodařilo se ověřit načtený licenční soubor. Kontaktujte prosím technickou podporu.</value></data>
+  <data name="Barvy_zluta" xml:space="preserve"><value>žlutá</value></data>
+  <data name="Uzivatel_chkDomaciVyuka" xml:space="preserve"><value>Aktivovat přenos postupových klíčů do domácí výuky</value></data>
+  <data name="Hora_cmdCoUzUmim_TTT" xml:space="preserve"><value>Co už umím?
+(F5)</value></data>
+  <data name="Oaplikaci_lblNazev" xml:space="preserve"><value>Název a verze:</value></data>
+  <data name="PresunNaTabor_optZpet" xml:space="preserve"><value>Přesunout žáka zpět na vybraný tábor:</value></data>
+  <data name="Student_klasifikaceNeaktivni" xml:space="preserve"><value>Žák tuto klasifikaci zatím psát nemůže.</value></data>
+  <data name="OpakovatKlasifikaci_klpol" xml:space="preserve"><value>Klasifikace po {0}. táboře</value></data>
+  <data name="Uzivatel_lnkAktivovatAkt" xml:space="preserve"><value>Aktivovat uživatele</value></data>
+  <data name="Historie_lblHrubeUhozy" xml:space="preserve"><value>Hrubé úhozy:</value></data>
+  <data name="AktivaceRucni_dlg_filter" xml:space="preserve"><value>Licenční soubory Mount Blue|*.mblic;*.xml</value></data>
+  <data name="OpakovatKlasifikaci_Title" xml:space="preserve"><value>Nastavit opakování klasifikace</value></data>
+  <data name="KlavesniceInfo_234" xml:space="preserve"><value>Už znáte {0} klávesy.
+
+Skvělé! Jen tak dále!</value></data>
+  <data name="MojeZnamky_info_klasifikaceSplnena" xml:space="preserve"><value>Klasifikaci už máte splněnou.</value></data>
+  <data name="Barvy_cervena" xml:space="preserve"><value>červená</value></data>
+  <data name="MojeZnamky_info_musiOpakovat" xml:space="preserve"><value>Učitel Vám nastavil opakování klasifikace, proto ji musíte napsat ještě jednou.</value></data>
+  <data name="Psani_SlovaZacinajici" xml:space="preserve"><value>jen slova začínající na {0}</value></data>
+  <data name="Psani_Ne" xml:space="preserve"><value>Ne</value></data>
+  <data name="MojeZnamky_lblPocetMalychJednicek" xml:space="preserve"><value>Počet malých jedniček:</value></data>
+  <data name="Oaplikaci_Title" xml:space="preserve"><value>O aplikaci Mount Blue</value></data>
+  <data name="Aktivace_lblVolbaInfo" xml:space="preserve"><value>Volba typu aktivace</value></data>
+  <data name="Zahlavi_PrihlasenyUzivatelZ" xml:space="preserve"><value>Přihlášená uživatelka:</value></data>
+  <data name="Zahlavi_PrihlasenyUzivatelM" xml:space="preserve"><value>Přihlášený uživatel:</value></data>
+  <data name="Uzivatel_chkPocatecniLekce" xml:space="preserve"><value>Nastavit jinou počáteční lekci</value></data>
+  <data name="Tridy_clhTrida" xml:space="preserve"><value>Třída</value></data>
+  <data name="Aktivace_lblHotovoInfo1" xml:space="preserve"><value>Aktivace úspěšně dokončena!</value></data>
+  <data name="Aktivace_lblHotovoInfo2" xml:space="preserve"><value>Aktivace aplikace Mount Blue byla úspěšně dokončena!
+
+Děkujeme a přejeme Vám příjemnou práci s produktem společnosti Mount Blue s.r.o.</value></data>
+  <data name="Trida_lblJmeno" xml:space="preserve"><value>Příjmení a jméno</value></data>
+  <data name="Trida_lblLekce" xml:space="preserve"><value>Tábor</value></data>
+  <data name="msgboxCviceniID" xml:space="preserve"><value>Identifikační číslo cvičení je: {0}</value></data>
+  <data name="MojeZnamky_Title" xml:space="preserve"><value>Moje známky</value></data>
+  <data name="_LicenceDemo" xml:space="preserve"><value>DEMO</value></data>
+  <data name="Trida_msgZadejteOznaceniTridy_Title" xml:space="preserve"><value>Chybí označení třídy</value></data>
+  <data name="Tridy_msgOpravduOdebrat" xml:space="preserve"><value>Opravdu chcete třídu {0} {1} odebrat ze systému?</value></data>
+  <data name="PostupovyKlic_lnkZkopirovatDoSchranky" xml:space="preserve"><value>Zkopírovat postupový klíč do schránky</value></data>
+  <data name="Plocha_cmdPridatStudenta_TTT" xml:space="preserve"><value>Zobrazí okno pro vložení nového žáka do systému
+(Ctrl+S)</value></data>
+  <data name="TextyCviceni_lblLekce" xml:space="preserve"><value>Vyberte tábor, jehož lekce chcete zobrazit:</value></data>
+  <data name="Uzivatel_optZena" xml:space="preserve"><value>žena</value></data>
+  <data name="Psani_SlovaZacinajici_Title" xml:space="preserve"><value>Pozor! Opis jen některých slov!</value></data>
+  <data name="Uzivatel_lnkHesloZrusit" xml:space="preserve"><value>Zrušit heslo</value></data>
+  <data name="TextyCviceni_lblTexty" xml:space="preserve"><value>Základní texty {0}. tábora:</value></data>
+  <data name="PsaniVysl_msgboxSpatneNapsaneZ" xml:space="preserve"><value>Ups! K~cíli musíte postupovat opatrněji a~přesněji, hrozí Vám pád.
+
+Napište prosím cvičení ještě jednou, abyste stoupala bezpečněji.</value></data>
+  <data name="PsaniVysl_msgboxSpatneNapsaneM" xml:space="preserve"><value>Ups! K~cíli musíte postupovat opatrněji a~přesněji, hrozí Vám pád.
+
+Napište prosím cvičení ještě jednou, abyste stoupal bezpečněji.</value></data>
+  <data name="PrihlasitDomaci_msgboxOpravduOdebrat" xml:space="preserve"><value>Opravdu chcete odstranit uživatele '{0}'?
+
+Uživatel se poté nebude moci přihlásit do Mount Blue.</value></data>
+  <data name="Prihlasit_cmdPrihlasit_TTT" xml:space="preserve"><value>Přihlásit se do Mount Blue
+(Enter)</value></data>
+  <data name="ChybaAplikace_lblInfo2" xml:space="preserve"><value>Pokud se chyba v aplikaci vyskytuje opakovaně, kontaktujte prosím technickou podporu.</value></data>
+  <data name="ChybaAplikace_lblInfo1" xml:space="preserve"><value>Omlouváme se, ale v aplikaci došlo k chybě. Byla vyvolána výjimka běhu aplikace.</value></data>
+  <data name="Uzivatele_msgMaxPocet" xml:space="preserve"><value>Do aplikace nemůžete přidat více než {0} uživatelů.</value></data>
+  <data name="VarovaniStisky_MaxDelka_1" xml:space="preserve"><value>Předloha neobsahuje znaky, které píšete. Zkuste cvičení ještě jednou.
+
+Kliknutím na tlačítko OK můžete začít psát cvičení znovu.</value></data>
+  <data name="VarovaniStisky_MaxDelka_0" xml:space="preserve"><value>Předloha neobsahuje znaky, které píšete.
+
+Znaky budou vyhodnoceny jako chybné.</value></data>
+  <data name="Klavesa_enter" xml:space="preserve"><value>Enter</value></data>
+  <data name="Psani_minuty_0" xml:space="preserve"><value>-</value></data>
+  <data name="Psani_minuty_1" xml:space="preserve"><value>minuta</value></data>
+  <data name="Psani_minuty_5" xml:space="preserve"><value>minut</value></data>
+  <data name="AktivaceAuto_msgChybaServeru" xml:space="preserve"><value>Omlouváme se, ale aktivaci nelze dokončit. Server odpověděl chybou. {0}</value></data>
+  <data name="UzivateleDemo_msgboxNeUzivZeSkoly_Title" xml:space="preserve"><value>Demoverze</value></data>
+  <data name="ChybaAplikace_lblDetaily" xml:space="preserve"><value>Detaily k chybě:</value></data>
+  <data name="Psani_neboCarka" xml:space="preserve"><value>, </value></data>
+  <data name="Student_klasifikaceNesplnenoUrgentni" xml:space="preserve"><value>Klasifikace není splněna, a žák proto nemůže pokračovat ve výstupu.</value></data>
+  <data name="Uzivatele_msgboxOdhlasitTitle" xml:space="preserve"><value>Odhlásit?</value></data>
+  <data name="Aktivace_optAuto" xml:space="preserve"><value>Automatická aktivace</value></data>
+  <data name="ZnamkyKlas_Title" xml:space="preserve"><value>Známkování klasifikace</value></data>
+  <data name="Klavesa_klavesa" xml:space="preserve"><value>Klávesa {0}</value></data>
+  <data name="Tridy_Title" xml:space="preserve"><value>Seznam tříd</value></data>
+  <data name="PStudent_DalsiLekceText" xml:space="preserve"><value>Skvěle jste zvládli i~tento výstup a~jste v~{0}. táboře.
+
+Chcete hned pokračovat ve výstupu na Mount Blue?</value></data>
+  <data name="Student_carka" xml:space="preserve"><value>, </value></data>
+  <data name="PrihlasitDomaci_msgboxOpravduOdebrat_Title" xml:space="preserve"><value>Opravdu odebrat?</value></data>
+  <data name="MojeZnamky_info_nemuzePsatZ" xml:space="preserve"><value>Klasifikaci zatím psát nemůžete, protože jste ještě neprošla táborem číslo {0}.</value></data>
+  <data name="MojeZnamky_info_nemuzePsatM" xml:space="preserve"><value>Klasifikaci zatím psát nemůžete, protože jste ještě neprošel táborem číslo {0}.</value></data>
+  <data name="ZmenaHesla_msgbox2xStejne_Title" xml:space="preserve"><value>Špatná hesla</value></data>
+  <data name="PresunNaTabor_Title" xml:space="preserve"><value>Přesunout žáka na jiný tábor</value></data>
+  <data name="Sprava_lnkOdebratUziv" xml:space="preserve"><value>Odebrat uživatele</value></data>
+  <data name="VarovaniStisky_Title" xml:space="preserve"><value>Pozor!</value></data>
+  <data name="Tridy_clhPocetStudentu" xml:space="preserve"><value>Počet žáků</value></data>
+  <data name="Klavesa_backspace" xml:space="preserve"><value>Backspace</value></data>
+  <data name="PostupovyKlic_lblInfo1zobrazitDoSkoly" xml:space="preserve"><value>Váš postupový klíč, který si můžete přenést do školy, je:</value></data>
+  <data name="PostupovyKlic_msgSpatny" xml:space="preserve"><value>Zadaný klíč není v pořádku. Zkontroluje, jestli jste jej zadali správně.</value></data>
+  <data name="Klavesnice_popis_shift_a" xml:space="preserve"><value>Shift a~</value></data>
+  <data name="Trida_lblOznaceni" xml:space="preserve"><value>Označení:</value></data>
+  <data name="PrihlasitSkolni_UzivJmeno" xml:space="preserve"><value>Uživatelské jméno:</value></data>
+  <data name="Psani_nebo" xml:space="preserve"><value> nebo </value></data>
+  <data name="Aktivace_lblSNinfo1" xml:space="preserve"><value>Sériové číslo</value></data>
+  <data name="Aktivace_lblSNinfo2" xml:space="preserve"><value>Před začátkem používání aplikace Mount Blue ji musíte aktivovat. Aktivace probíhá ve 3 krocích.
+
+Nejprve prosím zadejte sériové číslo, které jste získali po zakoupení aplikace:</value></data>
+  <data name="Uzivatel_msgOpravduVynulovat" xml:space="preserve"><value>Opravdu chcete uživateli vynulovat heslo?
+
+Pokud uživateli heslo vynulujete, bude si muset při příštím přihlášení nastavit heslo nové.</value></data>
+  <data name="Barvy_oranzova" xml:space="preserve"><value>oranžová</value></data>
+  <data name="TextyCviceni_lblTexty_treninkMinutovky" xml:space="preserve"><value>Základní texty tréninku - minutovky:</value></data>
+  <data name="Klavesa_cislovka" xml:space="preserve"><value>Číslovka {0}</value></data>
+  <data name="ChybaAplikace_msgChybaServer" xml:space="preserve"><value>Při komunikaci se serverem došlo k chybě a~spojení bylo ukončeno.</value></data>
+  <data name="Sprava_groupUcitele" xml:space="preserve"><value>Učitelé</value></data>
+  <data name="Uzivatel_optPismoStredni" xml:space="preserve"><value>střední</value></data>
+  <data name="Aktivace_lnkAutoAktivovat" xml:space="preserve"><value>Aktivovat Mount Blue</value></data>
+  <data name="Slapoty_lblZbyvajiciCas" xml:space="preserve"><value>0:00</value></data>
+  <data name="Psani_Odmena_Title" xml:space="preserve"><value>Odměna</value></data>
+  <data name="Psani_SlovaZacinajici_Info" xml:space="preserve"><value>U~tohoto cvičení musíte napsat pouze ta slova, která začínají písmenem {0}. Snadné, ne?</value></data>
+  <data name="PrihlasitSkolni_msgboxUzivNeaktivni" xml:space="preserve"><value>Zadaný uživatel byl deaktivován. Nelze jej tedy přihlásit.
+
+Kontaktujte prosím učitele nebo správce sítě.</value></data>
+  <data name="Uzivatel_msgUpozorneniPocLekce" xml:space="preserve"><value>Pro nového žáka jste zvolili jiný počáteční tábor. Standardně žák vždy začíná od prvního tábora.
+
+Opravdu chcete nastavit žáka na tábor číslo~{0}?</value></data>
+  <data name="Barvy_svetleZelena" xml:space="preserve"><value>světle zelená</value></data>
+  <data name="Licence_msgChybaKopirovani" xml:space="preserve"><value>Při kopírování licenčního souboru došlo k chybě. {0}</value></data>
+  <data name="Trida_msgZadejteOznaceniTridy" xml:space="preserve"><value>Musíte zadat také označení třídy.</value></data>
+  <data name="PostupovyKlic_lblInfo1zadatZdomu" xml:space="preserve"><value>Zadejte svůj postupový klíč, který jste si přinesli z domu:</value></data>
+  <data name="Uzivatel_lblPohlavi" xml:space="preserve"><value>Pohlaví:</value></data>
+  <data name="TextyCviceni_lnkZkopirovatVse_trenink10Minutovky" xml:space="preserve"><value>Zkopírovat všechny základní texty tréninku - desetiminutovky</value></data>
+  <data name="Student_klasifikaceNesplneno" xml:space="preserve"><value>Klasifikace není splněna.</value></data>
+  <data name="Lavina_msgStaleHrozi" xml:space="preserve"><value>Stále hrozí lavinové nebezpečí! Počkejte, dokud učitel lavinu neodvolá.</value></data>
+  <data name="Klavesnice_popis_vyzkousejte" xml:space="preserve"><value>Vyzkoušejte si to.</value></data>
+  <data name="Student_msgKlasifikaciNelzeZrusit_Title" xml:space="preserve"><value>Nelze zakázat</value></data>
+  <data name="Aktivace_lnkRucneNajitSoubor" xml:space="preserve"><value>Najít licenční soubor</value></data>
+  <data name="Sprava_lnkObnovit" xml:space="preserve"><value>Obnovit seznam</value></data>
+  <data name="Klavesa_levyShift" xml:space="preserve"><value>levý Shift</value></data>
+  <data name="Hora_VystupDokoncenM" xml:space="preserve"><value>Vítám Vás v~cíli!
+
+Právě jste dokončil výstup na~horu Mount Blue. Cestou jste projevil pevnou vůli a~trpělivost a~naučil se ovládat klávesnici počítače.
+
+Blahopřeji!</value></data>
+  <data name="Hora_VystupDokoncenZ" xml:space="preserve"><value>Vítám Vás v~cíli!
+
+Právě jste dokončila výstup na~horu Mount Blue. Cestou jste projevila pevnou vůli a~trpělivost a~naučila se ovládat klávesnici počítače.
+
+Blahopřeji!</value></data>
+  <data name="Uzivatel_msgUzivAktivovan" xml:space="preserve"><value>Uživatel byl aktivován a může se nyní přihlásit do Mount Blue.</value></data>
+  <data name="ChybaAplikace_Title" xml:space="preserve"><value>V aplikaci došlo k výjimce</value></data>
+  <data name="AktivaceAuto_msgChyba99" xml:space="preserve"><value>Omlouváme se, ale automatická aktivace nebyla zatím na serveru implementována. Zkuste zvolit ruční aktivaci nebo se prosím obraťte na technickou podporu.</value></data>
+  <data name="AktivaceAuto_msgChyba20" xml:space="preserve"><value>Omlouváme se, ale aplikace Mount Blue už byla pro toto sériové číslo aktivována na jiném počítači. Pokud přesto chcete aplikaci aktivovat pro tento počítač a používáte software v souladu s licenčním ujednáním, obraťte se prosím na technickou podporu. Děkujeme.</value></data>
+  <data name="AktivaceAuto_msgChyba30" xml:space="preserve"><value>Omlouváme se, ale automatická aktivace není dočasně dostupná. Zkuste aplikaci aktivovat později nebo se prosím obraťte na technickou podporu.</value></data>
+  <data name="AktivaceAuto_msgChyba10" xml:space="preserve"><value>Omlouváme se, ale nenašli jsme v naší databázi záznam o tom, že by pro zadané sériové číslo byla platná licence. Zkontrolujte prosím zadané sériové číslo nebo se obraťte na technickou podporu.</value></data>
+  <data name="Historie_lblPocetChyb" xml:space="preserve"><value>Počet chyb:</value></data>
+  <data name="Sprava_uzivCarka" xml:space="preserve"><value>, </value></data>
+  <data name="Historie_vyuzitaOdmena" xml:space="preserve"><value>žák využil malé jedničky pro opakování klasifikace</value></data>
+  <data name="Sprava_lnkOdebratUziv_TTT" xml:space="preserve"><value>Odebere vybraného uživatele z Mount Blue (Ctrl+Delete)</value></data>
+  <data name="Avatary_dlgFiltrSouboru" xml:space="preserve"><value>Soubory obrázků|*.bmp;*.emf;*.exif;*.gif;*.jpg;*.png;*.tif;*.wmf|Všechny soubory|*.*</value></data>
+  <data name="Klavesa_pravyShift" xml:space="preserve"><value>pravý Shift</value></data>
+  <data name="ZmenaHesla_msgboxKratke_Title" xml:space="preserve"><value>Krátké heslo</value></data>
+  <data name="TextyCviceni_lblTexty_trenink10Minutovky" xml:space="preserve"><value>Základní texty tréninku - desetiminutovky:</value></data>
+  <data name="Uzivatel_lnkPresunoutNaTabor" xml:space="preserve"><value>Přesunout žáka na jiný tábor</value></data>
+  <data name="Klavesy_klavesaXtabor" xml:space="preserve"><value>{0}
+
+Klávesa se vyučuje v táboře číslo~{1}.</value></data>
+  <data name="PostupovyKlic_lblInfo1zadatZeSkoly" xml:space="preserve"><value>Zadejte svůj postupový klíč, který jste si přinesli ze školy:</value></data>
+  <data name="PrihlasitSkolni_msgboxUziv_Title" xml:space="preserve"><value>Chyba při přihlašování</value></data>
+  <data name="Plocha_cmdOdhlasitSe_TTT" xml:space="preserve"><value>Odhlásit se z Mount Blue
+(Escape)</value></data>
+  <data name="PsaniVysl_SpravnyText" xml:space="preserve"><value>Správně měl opsaný text vypadat takto:</value></data>
+  <data name="Vysledky_Title" xml:space="preserve"><value>Vaše výsledky</value></data>
+  <data name="Psani_SlepaObrazovka_Info" xml:space="preserve"><value>Nelekněte se, setmělo se, proto neuvidíte své kroky. Pište opatrně, až dopíšete, tečky se změní v~písmena.</value></data>
+  <data name="Lekce_msgboxChybaXML" xml:space="preserve"><value>Při zpracování XML souboru došlo k chybě.
+
+{0}</value></data>
+  <data name="Zahlavi_Trida" xml:space="preserve"><value>Třída:</value></data>
+  <data name="MsgBoxObsah_cmdStorno_ttt" xml:space="preserve"><value>Klávesa 'S' nebo Escape</value></data>
+  <data name="Barvy_ruzova" xml:space="preserve"><value>růžová</value></data>
+  <data name="MsgBoxObsah_cmdOK2_ttt" xml:space="preserve"><value>Klávesa 'O'</value></data>
+  <data name="Historie_ziskalOdmenu" xml:space="preserve"><value>žák získal odměnu</value></data>
+  <data name="PrihlasitDomaci_lnkOdebratUziv" xml:space="preserve"><value>Odebrat uživatele</value></data>
+  <data name="TextyCviceni_Title" xml:space="preserve"><value>Texty cvičení</value></data>
+  <data name="Sprava_uzivNeaktivni" xml:space="preserve"><value>uživatel deaktivován</value></data>
+  <data name="Tridy_lnkOdebratTridu" xml:space="preserve"><value>Odebrat třídu</value></data>
+  <data name="Sprava_msgNelzeOdebrat_Title" xml:space="preserve"><value>Nelze odebrat</value></data>
+  <data name="Uzivatel_lblUzivJmeno" xml:space="preserve"><value>Uživatelské jméno:</value></data>
+  <data name="Sprava_msgOpravduOdebrat_Title" xml:space="preserve"><value>Odebrat uživatele?</value></data>
+  <data name="Uzivatel_lnkHesloZmenit_zm" xml:space="preserve"><value>Změnit přihlašovací heslo</value></data>
+  <data name="Aktivace_lnkRucneWeb" xml:space="preserve"><value>http://www.mountblue.cz/aktivace</value></data>
+  <data name="KlavesniceInfo_clhTabor" xml:space="preserve"><value>Tábor</value></data>
+  <data name="Uzivatele_uzivatelZeSkoly" xml:space="preserve"><value>(ze školy)</value></data>
+  <data name="Uzivatel_lblTitulyPred" xml:space="preserve"><value>Tituly před jménem:</value></data>
+  <data name="Barvy_fialova" xml:space="preserve"><value>fialová</value></data>
+  <data name="Lavina_Title" xml:space="preserve"><value>Pozor, lavina!</value></data>
+  <data name="Lekce_msgboxChybaKlasifikace" xml:space="preserve"><value>Při načítání souboru klasifikace došlo k chybě.
+
+{0}</value></data>
+  <data name="Uzivatel_msgboxStejnaBarvaZ" xml:space="preserve"><value>Zvolila jste stejnou barvu písma i pozadí.
+
+Text nebude vidět. Změňte prosím barvy.</value></data>
+  <data name="Uzivatel_msgboxStejnaBarvaM" xml:space="preserve"><value>Zvolil jste stejnou barvu písma i pozadí.
+
+Text nebude vidět. Změňte prosím barvy.</value></data>
+  <data name="PrihlasitSkolni_txtHeslo_TTT" xml:space="preserve"><value>Zadejte své přihlašovací heslo</value></data>
+  <data name="Uzivatele_uzivatelDokoncen" xml:space="preserve"><value>(výstup ukončen)</value></data>
+  <data name="Student_vracenZpet" xml:space="preserve"><value>vrácen zpět z {0}. tábora na tábor {1}</value></data>
+  <data name="Lavina_msgOdvolat" xml:space="preserve"><value>Chcete odvolat lavinu a umožnit žákům pokračovat ve výstupu?</value></data>
+  <data name="Psani_Odmena_vymena" xml:space="preserve"><value>Právě jsem Vám vyměnil 5 odměn za malou jedničku.</value></data>
+  <data name="Historie_dobaPsani" xml:space="preserve"><value>{0}:{1:00}</value></data>
+  <data name="Barvy_zelena" xml:space="preserve"><value>zelená</value></data>
+  <data name="Uzivatel_Title_upravit" xml:space="preserve"><value>Nastavení uživatele</value></data>
+  <data name="Oaplikaci_lblVyrobce" xml:space="preserve"><value>Výrobce:</value></data>
+  <data name="PStudent_DalsiLekceNadpis" xml:space="preserve"><value>Pokračovat?</value></data>
+  <data name="UzivateleDemo_msgboxNeUzivZeSkoly" xml:space="preserve"><value>Omlouváme se, ale v~demoverzi nelze přidávat uživatele ze~školy, protože texty cvičení jsou zkrácené a~demoverze obsahuje pouze 3 tábory a~jen 2 klasifikace.</value></data>
+  <data name="AktivaceAuto_msgZadnaData" xml:space="preserve"><value>Při aktivaci aplikace došlo k chybě a nebyla stažena žádná data.</value></data>
+  <data name="Uzivatel_lblUIDzeSkoly" xml:space="preserve"><value>Vaše školní UID:</value></data>
+  <data name="Plocha_cmdTisk_TTT" xml:space="preserve"><value>Zobrazí okno tiskových sestav
+(Ctrl+P)</value></data>
+  <data name="Student_klasifikaceXlekce" xml:space="preserve"><value>Klasifikace po {0}. táboře</value></data>
+  <data name="PrihlasitDomaci_lnkUpravitUziv_TTT" xml:space="preserve"><value>Upraví nastavení vybraného uživatele</value></data>
+  <data name="Historie_lblChybovost" xml:space="preserve"><value>Chybovost:</value></data>
+  <data name="Psani_kriterium_cistychUhozuZaMin" xml:space="preserve"><value>počet čistých úhozů za minutu větší nebo roven</value></data>
+  <data name="Klient_msgNelzeSePripojitKserveru_Title" xml:space="preserve"><value>Chyba při připojování k serveru</value></data>
+  <data name="Aktivace_optRucne" xml:space="preserve"><value>Ruční aktivace</value></data>
+  <data name="PrihlasitDomaci_chkSkrytDokoncene_TTT" xml:space="preserve"><value>Skryje ty uživatele, kteří už svůj výstup na horu Mount Blue dokončili</value></data>
+  <data name="Psani_kriterium_pocetChybRel" xml:space="preserve"><value>procento chyb menší nebo rovno</value></data>
+  <data name="Psani_kriterium_pocetChybAbs" xml:space="preserve"><value>počet chyb menší nebo roven</value></data>
+  <data name="Uzivatel_msgboxChybiJmenoPrijmeni_Title" xml:space="preserve"><value>Chybí jméno</value></data>
+  <data name="Klient_msgChyba" xml:space="preserve"><value>Při připojování k síti došlo k chybě.
+
+{0}</value></data>
+  <data name="SezeniUcitel_BublinaInfo" xml:space="preserve"><value>Žáci by měli sedět tak, jak ukazuje obrázek.</value></data>
+  <data name="Student_lblVyprsi_pise" xml:space="preserve"><value>píše klasifikaci</value></data>
+  <data name="Psani_Normalne" xml:space="preserve"><value>normálně</value></data>
+  <data name="PostupovyKlic_msgSteny" xml:space="preserve"><value>Zadaný klíč je sice v~pořádku, ale neposouvá Vás na žádný jiný tábor.</value></data>
+  <data name="Psani_Ano" xml:space="preserve"><value>Ano</value></data>
+  <data name="PostupovyKlic_msgZdomu" xml:space="preserve"><value>Zadaný postupový klíč není ze školy, ale z~domu. Zkuste klíč zadat ještě jednou.</value></data>
+  <data name="Trida_lblPoznamka" xml:space="preserve"><value>Poznámka</value></data>
+  <data name="Sezeni_Title" xml:space="preserve"><value>Sedíte správně?</value></data>
+  <data name="Uzivatel_uzivJmenoFormat" xml:space="preserve"><value>{0}.{1}</value></data>
+  <data name="Prihlasit_DoMB" xml:space="preserve"><value>Přihlášení do aplikace Mount Blue</value></data>
+  <data name="Hora_cmdTrenink_TTT" xml:space="preserve"><value>Začít trénovat
+(Ctrl+Enter)</value></data>
+  <data name="Plocha_picOaplikaci_TTT" xml:space="preserve"><value>O aplikaci Mount Blue</value></data>
+  <data name="TextyCviceni_lblTexty_nacitam" xml:space="preserve"><value>Načítání textů lekcí...</value></data>
+  <data name="Historie_vracenZpet" xml:space="preserve"><value>žák cvičení psal ještě jednou kvůli velkému počtu chyb</value></data>
+  <data name="Klavesnice_popis_shift" xml:space="preserve"><value>Nezapomeňte na Shift!</value></data>
+  <data name="Sprava_lnkUpravitUziv" xml:space="preserve"><value>Upravit uživatele</value></data>
+  <data name="Psani_SlovaObsahujici_Info" xml:space="preserve"><value>Následuje cvičení, u~kterého musíte opsat pouze slova obsahující {0}. Jdeme na~to, držím Vám palce.</value></data>
+  <data name="Aktivace_lblAutoInfo2" xml:space="preserve"><value>Aplikace se nyní spojí se serverem společnosti Mount Blue s.r.o. a~automaticky provede aktivaci Mount Blue.
+
+Ujistěte se prosím, že je Váš počítač připojen, k~Internetu a~poté klikněte na~tlačítko 'Aktivovat Mount Blue'.</value></data>
+  <data name="Aktivace_lblAutoInfo1" xml:space="preserve"><value>Automatická aktivace</value></data>
+  <data name="TextyCviceni_lblTexty_trenink5Minutovky" xml:space="preserve"><value>Základní texty tréninku - pětiminutovky:</value></data>
+  <data name="PrihlasitDomaci_chkSkrytDokoncene" xml:space="preserve"><value>&amp;Skrýt dokončené</value></data>
+  <data name="Uzivatele_msgboxOdhlasit" xml:space="preserve"><value>Opravdu chcete uživatele {0} odhlásit z~aplikace Mount Blue?</value></data>
+  <data name="Sprava_groupNeznamaTrida" xml:space="preserve"><value>Třída neuvedena</value></data>
+  <data name="DemoInfo_lblInfo" xml:space="preserve"><value>Než se pustíte na náročnou trasu, vyzkoušejte si trasu zkrácenou, vyzkoušejte si demoverzi. Čekají Vás na ní:
+
+– jen některá cvičení
+– zkrácené texty
+– výstup jen do tří táborů
+– pouze dvě klasifikace
+
+Bude-li se Vám zkrácená trasa líbit, vyzbrojte se trpělivostí a~pevnou vůlí a~brzy se můžete dívat na svět z~vrcholu Mount Blue. Rád Vás budu cestou provázet.</value></data>
+  <data name="PrihlasitSkolni_txtUzivJmeno_TTT" xml:space="preserve"><value>Zadejte své přihlašovací uživatelské jméno</value></data>
+  <data name="Psani_minuty_pul" xml:space="preserve"><value>minuty</value></data>
+  <data name="Psani_minuty_234" xml:space="preserve"><value>minuty</value></data>
+  <data name="Heslo_lblHeslo" xml:space="preserve"><value>Zadejte prosím vaše přihlašovací heslo:</value></data>
+  <data name="Klavesy_coMeCeka" xml:space="preserve"><value>Co mě čeká?</value></data>
+  <data name="Klient_msgNelzeSePripojitKserveru" xml:space="preserve"><value>Nelze se připojit ke vzdálenému serveru. Opravte připojení k síti, kontaktujte správce sítě nebo administrátora.
+
+{0}</value></data>
+  <data name="Historie_taborX" xml:space="preserve"><value>{0}. tábor</value></data>
+  <data name="Lavina_msgOdvolat_Title" xml:space="preserve"><value>Odvolat lavinu?</value></data>
+  <data name="KlavesniceCviceni_tmbTest_Backspace" xml:space="preserve"><value>Vyzkoušejte si klávesu Backspace. Backspace umožňuje mazat text po písmenech. Můžete ale také stisknout Ctrl + Backspace pro mazání celých slov.</value></data>
+  <data name="Hora_UvitaciText" xml:space="preserve"><value>Vítám Vás na~cestě na~Mount Blue.
+
+Horu zdoláte, až budete umět každé písmenko napsat bez pohledu na~klávesnici. Je to stejně obtížné, jako výstup na~vysokou horu, ale zážitek z~výstupu stojí za to!
+
+Jen jedna trasa vede k~cíli – ta, po~které Vás povedu.</value></data>
+  <data name="Sprava_clhJmeno" xml:space="preserve"><value>Jméno a příjmení</value></data>
+  <data name="Zahlavi_AktualniTabor" xml:space="preserve"><value>Aktuální tábor:</value></data>
+  <data name="Tridy_lnkPridatTridu" xml:space="preserve"><value>Přidat třídu</value></data>
+  <data name="Plocha_cmdNastaveni_TTT" xml:space="preserve"><value>Nastavení uživatelských vlastností
+(Ctrl+N)</value></data>
+  <data name="Cviceni_cmdVyhodnotit_TTT" xml:space="preserve"><value>Vyhodnotit cvičení
+(Ctrl+Enter)</value></data>
+  <data name="msgboxCviceniID_Title" xml:space="preserve"><value>ID cvičení</value></data>
+  <data name="Prsty_prst2_7pad" xml:space="preserve"><value>levým prsteníčkem</value></data>
+  <data name="Uzivatel_msgChybneUIDzeSkoly" xml:space="preserve"><value>Zadané školní uživatelské identifikační číslo (UID) není správné.</value></data>
+  <data name="Uzivatel_lstPocatecniLekce_trenink5Minutovky" xml:space="preserve"><value>Trénink - pětinutovky</value></data>
+  <data name="Prsty_prst1_7pad" xml:space="preserve"><value>levým malíčkem</value></data>
+  <data name="MsgBoxObsah_cmdAno_ttt" xml:space="preserve"><value>Klávesa 'A'</value></data>
+  <data name="Aktivace_Title" xml:space="preserve"><value>Aktivace Mount Blue</value></data>
+  <data name="Uzivatel_optPismoVelke" xml:space="preserve"><value>velká</value></data>
+  <data name="Prsty_prst3_7pad" xml:space="preserve"><value>levým prostředníčkem</value></data>
+  <data name="Oaplikaci_lblCopyright" xml:space="preserve"><value>Autorská práva:</value></data>
+  <data name="MojeZnamky_info_muzeOpakovat_1" xml:space="preserve"><value>Než dojdete do {0}. tábora, můžete směnit jednu malou jedničku za záchranné lano a~klasifikaci opakovat kliknutím na 'Začít psát klasifikaci'.</value></data>
+  <data name="MojeZnamky_info_muzeOpakovat_2" xml:space="preserve"><value>Můžete směnit jednu malou jedničku za záchranné lano a~klasifikaci opakovat kliknutím na 'Začít psát klasifikaci'.</value></data>
+  <data name="Student_lblVyprsi_ttt" xml:space="preserve"><value>Klasifikaci musí žák začít psát do {1} minut od povolení. Platnost povolení mu vyprší {0}.</value></data>
+  <data name="PostupovyKlic_lblInfo2zadat" xml:space="preserve"><value>Pokud chcete pokračovat bez zadání klíče od cvičení, na kterém jste skončili minule, stiskněte Storno.</value></data>
+  <data name="Sprava_uzivUci" xml:space="preserve"><value>učí: {0}</value></data>
+  <data name="Trida_msgTridaExistuje_Title" xml:space="preserve"><value>Duplicitní třída</value></data>
+  <data name="Uzivatel_msgNelzePresunout" xml:space="preserve"><value>Žák je právě přihlášený v Mount Blue, takže ho nemůžete přesunout na jiný tábor.
+
+Počkejte, dokud se žák neodhlásí.</value></data>
+  <data name="Prsty_prst6_7pad" xml:space="preserve"><value>pravým ukazováčkem</value></data>
+  <data name="Uzivatel_lnkZaslatUIDnaEmail" xml:space="preserve"><value>Zaslat Vaše UID na e-mail</value></data>
+  <data name="Trida_lblVelkeOdmeny" xml:space="preserve"><value>Malé jedničky</value></data>
+  <data name="Psani_OpisteXkrat" xml:space="preserve"><value>{0}x</value></data>
+  <data name="PStudent_msgboxNesplnenaKlasifikace" xml:space="preserve"><value>Protože nemáte splněnou klasifikaci, nemůžu Vás pustit na další výstup.
+
+Nyní Vám zobrazím Vaše známky, kde si můžete nesplněnou klasifikaci napsat.</value></data>
+  <data name="Tridy_msgNelzeOdebrat_Title" xml:space="preserve"><value>Nelze odebrat</value></data>
+  <data name="_JmenoMB" xml:space="preserve"><value>Mount Blue</value></data>
+  <data name="Prsty_prst5_7pad" xml:space="preserve"><value>palcem</value></data>
+  <data name="Uzivatel_msgboxChybiJmenoPrijmeni" xml:space="preserve"><value>Jméno a příjmení nemůže být prázdné.</value></data>
+  <data name="_EmailPodpora" xml:space="preserve"><value>podpora@mountblue.cz</value></data>
+  <data name="Heslo_Title" xml:space="preserve"><value>Heslo</value></data>
+  <data name="Klavesnice_popis_znama_klavesa_se_shiftem" xml:space="preserve"><value>{0} je na~stejné klávese jako {1}. Použijte tedy pro psaní {2}{3}.</value></data>
+  <data name="Prsty_prst0_7pad" xml:space="preserve"><value>jiným prstem</value></data>
+  <data name="PostupovyKlic_lnkZaslatNaEmail" xml:space="preserve"><value>Zaslat postupový klíč na Váš e-mail</value></data>
+  <data name="Prsty_prst7_7pad" xml:space="preserve"><value>pravým prostředníčkem</value></data>
+  <data name="MojeZnamky_grpNesplnene" xml:space="preserve"><value>Nesplněné klasifikace</value></data>
+  <data name="PrihlasitDomaci_lnkPridatSkolUziv" xml:space="preserve"><value>Přidat uživatele ze školy</value></data>
+  <data name="VarovaniStisky_StejnaKlavesa_0" xml:space="preserve"><value>Opakovaně jste stiskli stejnou klávesu. Předloha tyto znaky neobsahuje.
+
+Znaky budou vyhodnoceny jako chyba.</value></data>
+  <data name="VarovaniStisky_StejnaKlavesa_1" xml:space="preserve"><value>Opakovaně jste stiskli stejnou klávesu. Předloha tyto znaky neobsahuje. Zkuste cvičení ještě jednou.
+
+Kliknutím na tlačítko OK můžete začít psát cvičení znovu.</value></data>
+  <data name="PostupovyKlic_Title" xml:space="preserve"><value>Postupový klíč</value></data>
+  <data name="Sprava_clhDatovySoubor" xml:space="preserve"><value>Datový soubor</value></data>
+  <data name="PresunNaTabor_optVpred0" xml:space="preserve"><value>Přesunout žáka opět na poslední tábor číslo {0}</value></data>
+  <data name="Prsty_prst9_7pad" xml:space="preserve"><value>pravým malíčkem</value></data>
+  <data name="ZmenaHesla_msgboxStejne_Title" xml:space="preserve"><value>Špatné heslo</value></data>
+  <data name="Prsty_prst3" xml:space="preserve"><value>levý prostředníček</value></data>
+  <data name="Prsty_prst2" xml:space="preserve"><value>levý prsteníček</value></data>
+  <data name="Prsty_prst1" xml:space="preserve"><value>levý malíček</value></data>
+  <data name="Prsty_prst0" xml:space="preserve"><value>jiný</value></data>
+  <data name="Prsty_prst7" xml:space="preserve"><value>pravý prostředníček</value></data>
+  <data name="Prsty_prst6" xml:space="preserve"><value>pravý ukazováček</value></data>
+  <data name="Prsty_prst5" xml:space="preserve"><value>palec</value></data>
+  <data name="Prsty_prst4" xml:space="preserve"><value>levý ukazováček</value></data>
+  <data name="Prsty_prst9" xml:space="preserve"><value>pravý malíček</value></data>
+  <data name="Prsty_prst8" xml:space="preserve"><value>pravý prsteníček</value></data>
+  <data name="Lavina_lblInfoUcitel" xml:space="preserve"><value>Chcete-li, aby všichni žáci přerušili práci, stiskněte tlačítko 'Zastavit výstup'.
+
+Žáci dopíší cvičení a počkají na Vaše další pokyny.
+
+Pokračovat ve výstupu jim umožníte, když zmáčknete tlačítko 'Odvolat lavinu'.</value></data>
+  <data name="Heslo_msgboxSpatneHeslo_Title" xml:space="preserve"><value>Špatné heslo</value></data>
+  <data name="PrihlasitSkolni_msgboxUzivNeexistuje" xml:space="preserve"><value>Zadaný uživatel v systému neexistuje.
+
+Zkontrolujte prosím zadané uživatelské jméno.</value></data>
+  <data name="Prsty_prst4_7pad" xml:space="preserve"><value>levým ukazováčkem</value></data>
+  <data name="Cviceni_cmdPrejitNaDalsi_TTT" xml:space="preserve"><value>Přejít na další cvičení
+(Ctrl+Enter)</value></data>
+  <data name="PrihlasitDomaci_lnkPridatUziv_TTT" xml:space="preserve"><value>Přidá nového uživatele do Mount Blue</value></data>
+  <data name="Hora_VrcholovaTabulkaZ" xml:space="preserve"><value>Dne {0:d} stanula
+na~vrcholu Mount Blue
+{1}.</value></data>
+  <data name="Hora_VrcholovaTabulkaM" xml:space="preserve"><value>Dne {0:d} stanul
+na~vrcholu Mount Blue
+{1}.</value></data>
+  <data name="MojeZnamky_clhZnamka" xml:space="preserve"><value>Známka</value></data>
+  <data name="Aktivace_lnkVolbaZmenaSN" xml:space="preserve"><value>Změna zadaného sériového čísla</value></data>
+  <data name="MojeZnamky_clhHrube" xml:space="preserve"><value>Hrubé úhozy</value></data>
+  <data name="MojeZnamky_clhChyby" xml:space="preserve"><value>Počet chyb</value></data>
+  <data name="Vysledky_lblUhozyHrube" xml:space="preserve"><value>Hrubé úhozy:</value></data>
+  <data name="ZmenaHesla_lblInfo" xml:space="preserve"><value>Zadejte prosím 2x své nové heslo.</value></data>
+  <data name="MojeZnamky_clhDatum" xml:space="preserve"><value>Datum získání známky</value></data>
+  <data name="Vysledky_lblUhozyCiste" xml:space="preserve"><value>Čisté úhozy/min.</value></data>
+  <data name="PsaniVysl_popisZadani" xml:space="preserve"><value>Opište {0}x, {1}</value></data>
+  <data name="Psani_SlovaObsahujici" xml:space="preserve"><value>jen slova obsahující {0}</value></data>
+  <data name="PostupovyKlic_lblInfo1zobrazitDomu" xml:space="preserve"><value>Váš postupový klíč, který si můžete přenést domů, je:</value></data>
+  <data name="Prsty_prst8_7pad" xml:space="preserve"><value>pravým prsteníčkem</value></data>
+  <data name="Sprava_uzivPrihlasen" xml:space="preserve"><value>uživatel přihlášen</value></data>
+  <data name="Hora_VyukaDokoncena" xml:space="preserve"><value>Blížíte se do cíle. Nyní Vám chybí už jen klasifikační cvičení.
+
+Chcete si ho nyní napsat?</value></data>
+  <data name="ZnamkyKlas_lblInfo" xml:space="preserve"><value>Následující klasifikační cvičení bude známkováno podle této tabulky. Kritériem pro hodnocení je {0} hodnotě v~tabulce.</value></data>
+  </root>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Lekce" xml:space="preserve"><value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="hyl" targetNamespace="hyl"&gt;
+  &lt;xs:element name="lekce"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:sequence&gt;
+        &lt;xs:element name="vetev" minOccurs="1" maxOccurs="unbounded"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="cviceni" minOccurs="0" maxOccurs="unbounded"&gt;
+                &lt;xs:complexType&gt;
+                  &lt;xs:choice minOccurs="1" maxOccurs="1"&gt;
+                    &lt;xs:element name="prstoklad"&gt;
+                      &lt;xs:complexType&gt;
+                        &lt;xs:attribute name="pismeno" type="xs:string" /&gt;
+                        &lt;xs:attribute name="prst" type="xs:integer" /&gt;
+                      &lt;/xs:complexType&gt;
+                    &lt;/xs:element&gt;
+                    &lt;xs:element name="klavesnice"&gt;
+                      &lt;xs:complexType&gt;
+                        &lt;xs:attribute name="cislo_klavesy" type="xs:byte" /&gt;
+                        &lt;xs:attribute name="shift" type="xs:boolean" /&gt;
+                        &lt;xs:attribute name="modifikator" type="xs:byte" /&gt;
+                        &lt;xs:attribute name="zname_klavesy" type="xs:string" use="optional" default="" /&gt;
+                      &lt;/xs:complexType&gt;
+                    &lt;/xs:element&gt;
+                    &lt;xs:element name="spravne_sezeni"&gt;
+                      &lt;xs:complexType&gt;
+                        &lt;xs:attribute name="popis" type="xs:string" /&gt;
+                      &lt;/xs:complexType&gt;
+                    &lt;/xs:element&gt;
+                    &lt;xs:element name="psani"&gt;
+                      &lt;xs:complexType&gt;
+                        &lt;xs:sequence minOccurs="1" maxOccurs="1"&gt;
+                          &lt;xs:element name="text"&gt;
+                            &lt;xs:complexType&gt;
+                              &lt;xs:simpleContent&gt;
+                                &lt;xs:extension base="xs:string"&gt;
+                                  &lt;xs:attribute name="kodovano" type="xs:boolean" default="false" use="optional" /&gt;
+                                &lt;/xs:extension&gt;
+                              &lt;/xs:simpleContent&gt;
+                            &lt;/xs:complexType&gt;
+                          &lt;/xs:element&gt;
+                          &lt;xs:element name="vlastnosti"&gt;
+                            &lt;xs:complexType&gt;
+                              &lt;xs:attribute name="pocet" type="xs:integer" /&gt;
+                              &lt;xs:attribute name="zpusob" type="xs:integer" /&gt;
+                              &lt;xs:attribute name="enter" type="xs:boolean" /&gt;
+                              &lt;xs:attribute name="backspace" type="xs:boolean" /&gt;
+                              &lt;xs:attribute name="cas" type="xs:double" default="0" use="optional" /&gt;
+                              &lt;xs:attribute name="penalizace" type="xs:integer" default="10" use="optional" /&gt;
+                              &lt;xs:attribute name="znaky" type="xs:string" default="" use="optional" /&gt;
+                              &lt;xs:attribute name="ukazka" type="xs:boolean" default="0" use="optional" /&gt;
+                              &lt;xs:attribute name="rychlost" type="xs:integer" use="optional" default="100" /&gt;
+                            &lt;/xs:complexType&gt;
+                          &lt;/xs:element&gt;
+                          &lt;xs:element name="vyhodnoceni" minOccurs="0" maxOccurs="1"&gt;
+                            &lt;xs:complexType&gt;
+                              &lt;xs:sequence&gt;
+                                &lt;xs:element name="podminka" minOccurs="0" maxOccurs="4"&gt;
+                                  &lt;xs:complexType&gt;
+                                    &lt;xs:attribute name="hodnota" type="xs:double" use="required" /&gt;
+                                    &lt;xs:attribute name="vetev" type="xs:string" use="optional" /&gt;
+                                    &lt;xs:attribute name="znamka" type="xs:integer" use="optional" /&gt;
+                                  &lt;/xs:complexType&gt;
+                                &lt;/xs:element&gt;
+                              &lt;/xs:sequence&gt;
+                              &lt;xs:attribute name="typvyhodnoceni" type="xs:integer" default="1" /&gt;
+                              &lt;xs:attribute name="kriterium" type="xs:integer" /&gt;
+                              &lt;xs:attribute name="vychozivetev" type="xs:string" /&gt;
+                              &lt;xs:attribute name="klasifikace_od" type="xs:integer" use="optional" default="1" /&gt;
+                              &lt;xs:attribute name="klasifikace_do" type="xs:integer" use="optional" default="999" /&gt;
+                            &lt;/xs:complexType&gt;
+                          &lt;/xs:element&gt;
+                          &lt;xs:element name="odmena" minOccurs="0" maxOccurs="1"&gt;
+                            &lt;xs:complexType&gt;
+                              &lt;xs:attribute name="kriterium" type="xs:integer" /&gt;
+                              &lt;xs:attribute name="hodnota" type="xs:double" /&gt;
+                              &lt;xs:attribute name="typodmeny" type="xs:integer" /&gt;
+                            &lt;/xs:complexType&gt;
+                          &lt;/xs:element&gt;
+                        &lt;/xs:sequence&gt;
+                      &lt;/xs:complexType&gt;
+                    &lt;/xs:element&gt;
+                  &lt;/xs:choice&gt;
+                  &lt;xs:attribute name="cislo" type="xs:integer" use="required" /&gt;
+                  &lt;xs:attribute name="ID" type="xs:unsignedInt" use="required" /&gt;
+                &lt;/xs:complexType&gt;
+              &lt;/xs:element&gt;
+            &lt;/xs:sequence&gt;
+            &lt;xs:attribute name="nazev" type="xs:string" use="required" /&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:sequence&gt;
+      &lt;xs:attribute name="verze" type="xs:string" use="required" /&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value></data>
+  <data name="Klavesy" xml:space="preserve"><value>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="hyl" targetNamespace="hyl"&gt;&lt;xs:element name="klavesy"&gt;&lt;xs:complexType&gt;&lt;xs:sequence&gt;&lt;xs:element name="lekce" minOccurs="0" maxOccurs="unbounded"&gt;&lt;xs:complexType&gt;&lt;xs:sequence&gt;&lt;xs:element name="klavesa" minOccurs="1" maxOccurs="unbounded"&gt;&lt;xs:complexType&gt;&lt;xs:attribute name="cislo_klavesy" type="xs:byte" /&gt;&lt;xs:attribute name="shift" type="xs:boolean" /&gt;&lt;xs:attribute name="modifikator" type="xs:byte" /&gt;&lt;xs:attribute name="je_znama" type="xs:boolean" /&gt;&lt;xs:attribute name="prst" type="xs:byte" /&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:sequence&gt;&lt;xs:attribute name="cislo" type="xs:integer" /&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:sequence&gt;&lt;xs:attribute name="verze" type="xs:string" use="required" /&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:schema&gt;</value></data>
+  </root>
